@@ -1,0 +1,155 @@
+<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+
+<div class="row">
+  <div class="large-12 columns">
+    <h1>List Turned Expandable</h1>
+    <div class="small-12 large-12 columns">
+      <ul>
+        <li>
+          <a href="#one" class="expandable top-curve">Star Wars</a>
+          <div>
+            <ul class="remove-bullets">
+              <li>
+                May the Force be with you.
+              </li>
+              <li>
+                That's no moon. It's a space station.
+              </li>
+              <li>
+                Into the garbage chute, flyboy!
+              </li>
+              <li>
+                Aren’t you a little short for a stormtrooper?
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <a href="#one" class="expandable no-top-border">Apollo 13</a>
+          <div>
+            <ul class="remove-bullets">
+              <li>
+                Ah, Houston, we’ve had a problem.
+              </li>
+              <li>
+                Gentlemen, it's been a privilege flying with you.
+              </li>
+              <li>
+                So long, Earth. Catch you on the flip side.
+              </li>
+            </ul>
+          </div>
+        </li>
+        
+          
+      </ul>
+    </div>
+  </div>
+</div>    
+<style>
+/* Mobile Styles*/
+html,
+body {
+  background-color: #ddd;
+}
+
+h1, p {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  font-weight: bold;
+}
+ul li {
+  border-top: none;
+  padding-right: 70px;
+}
+ul li a {
+  text-decoration: none;
+}
+ul li .top-curve {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+ul li .no-top-border {
+  border-top: none !important;
+  padding-right: 70px;
+}
+ul li .bottom-curve {
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+ul li .expandable {
+  background: url(https://raw2.github.com/courtney-jordan/assets/master/images/down-arrow.png) no-repeat 94% center #efefef;
+  border: 1px solid #ccc;
+  display: block;
+  overflow: auto;
+  padding: 10px 70px 10px 10px;
+}
+ul li .expandable + div {
+  background: #fff;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  display: none;
+  padding: 12px 10px 20px 4px;
+}
+ul li .expandable.expanded {
+  background: url(https://raw2.github.com/courtney-jordan/assets/master/images/up-arrow.png) no-repeat 94% center #efefef;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+ul li .expandable.expanded + div {
+  display: block;
+}
+ul li ul {
+  list-style-type: decimal;
+  font-weight: normal;
+}
+ul li ul li {
+  margin-left: 1em;
+}
+
+@media only screen and (min-width: 48em) {
+  .expandable {
+    background: #ddd !important;
+    padding: 4px 0 0 20px !important;
+    border: none !important;
+    display: inline-block !important;
+    overflow: visible !important;
+  }
+  .expandable + div {
+    margin-left: 20px !important;
+    background: #ddd !important;
+    border: none !important;
+    padding-bottom: 10px !important;
+    display: block !important;
+  }
+}
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+$(document).ready( function() {
+
+	//go out and find anchor(s) that have the class expandable, add click event
+	$('.expandable').on('click', function(event){
+	
+		//prevents default event action on the anchor
+		event.preventDefault();
+		
+		//checks anchor for expanded class
+		if ($(this).hasClass('expanded')){
+		
+			//anchor had class expanded, remove it
+			$(this).removeClass('expanded');
+			
+		} else {
+		
+			//anchor didn't have class expanded, add it
+			$(this).addClass('expanded');			
+		}
+	});
+});
+</script>
