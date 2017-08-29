@@ -1,4 +1,7 @@
-
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <div class="row">
   <div class="large-12 columns">
     <div class="small-12 large-12 columns">
@@ -81,10 +84,6 @@
 </div>    
 <style>
 /* Mobile Styles*/
-html,
-body {
-  background-color: black;
-}
 
 h1, p {
   font-family: 'Ubuntu', sans-serif;
@@ -136,34 +135,38 @@ ul li .expandable.expanded {
 ul li .expandable.expanded + div {
   display: block;
 }
-ul li ul {
-  list-style-type: decimal;
-  font-weight: normal;
-}
+
 ul li ul li {
-  margin-left: 1em;
+  margin-left: 0em;
 }
 
 @media only screen and (min-width: 48em) {
   .expandable {
     background: black !important;
-    padding: 4px 0 0 20px !important;
+    padding: 4px 0 0 20px !important
     border: none !important;
     display: inline-block !important;
     overflow: visible !important;
   }
   .expandable + div {
-    margin-left: 20px !important;
+    margin-left: 0px !important;
     background: black !important;
     border: none !important;
     padding-bottom: 10px !important;
     display: block !important;
   }
 }
-.small-12
+.large-12
 {
 color:white;
 }
+.glyphicon:hover
+{
+-ms-transform: scale(2, 3); /* IE 9 */
+    -webkit-transform: scale(2, 3); /* Safari */
+    transform: scale(2, 3);
+}
+
 </style>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script>
