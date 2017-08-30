@@ -1,22 +1,63 @@
 	<html>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<div>
-<h1 class="title">droplr</h1>	
-	<input id="seek" type="text" name="seek" placeholder="Search..."><br>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <div class="row">
+	<div class="col-sm-2">
+	<h1 class="title">droplr</h1>
+  </div>
+  	<div class="col-sm-10">
+<div class="contain">
+  
+	<input id="seek" type="text" name="seek" placeholder="Search...">
+	<span class="glyphicon glyphicon-search"></span><br>
+	</div>
+	</div>
+	</div>
+	<div class="row">
+	<div class="col-sm-2">
+	<div class="rect"><span class="bord"></span></div>
+	</div>
+	<div class="col-sm-10">
+	<div class="over">Overview</div>
+	</div>
 	</div>
 	</html>
 <style>
+.glyphicon
+{
+margin-left:-25px;
+color:black;
+}
+.bord{
+border: 3px dashed white;
+width:100%;
+height:5%;
+z-index:10;
+}
+
+.rect
+{
+width:100%;
+height:13%;
+background-color:grey;}
 
 .title{
 top:0px;
 left:0px;
+background-color:black;
+width:100%;
+height:60px;
 }
-*{
+.contain{
+width:100%;
+top:0px;
+right:0px;
 	font-family: 'Raleway';
 	background-color:black;
 	color:white;
-	padding-bottom:10px;
 }
 input[type="text"]{
 	border:3px solid white;	
@@ -28,16 +69,10 @@ input[type="text"]{
 	border-radius: 70px;	
 	margin-bottom: 20px;
 }
-#seek{
-    padding-bottom:10px;
-    padding-right:150px;
-	width: 16px;
-	text-align: center;
-	margin:0 auto;
-	color: grey;
-	margin-top: 0px;
-	margin-right:0px;
-	height: auto;
+.over{
+padding-top:-20px;
+font-size:30px;
+padding-left:10px;
 }
 
 </style>
