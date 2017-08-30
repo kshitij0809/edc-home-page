@@ -1,0 +1,38 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <symbol id="svg_3" viewBox="0 0 52.756 52.757" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <g id="svg_2">
+    <g id="svg_6">
+     <g id="svg_9">
+      <path id="svg_10" d="m26.108,0l-10.523,10.524c-1.048,1.024 -0.815,1.746 0.649,1.746l5.873,0l-0.001,12.788c0,2.208 1.79,4 4,4l0,0c2.209,0 4,-1.791 4,-4l0.001,-12.789l5.876,0c1.462,0.001 1.693,-0.723 0.646,-1.747l-10.521,-10.522z"/>
+      <path id="svg_11" d="m49.027,25.77l-6.049,0c-0.554,0 -1,0.447 -1,1l0,17.939l-31.198,0l0,-17.939c0,-0.553 -0.447,-1 -1,-1l-6.049,0c-0.553,0 -1,0.447 -1,1l0,20.464c0,3.045 2.479,5.522 5.524,5.522l36.248,0c3.046,0 5.523,-2.479 5.523,-5.522l0,-20.464c0.001,-0.553 -0.445,-1 -0.999,-1z"/>
+     </g>
+    </g>
+   </g>
+   <g id="svg_12"/>
+   <g id="svg_13"/>
+   <g id="svg_14"/>
+   <g id="svg_15"/>
+   <g id="svg_16"/>
+   <g id="svg_17"/>
+   <g id="svg_18"/>
+   <g id="svg_19"/>
+   <g id="svg_20"/>
+   <g id="svg_21"/>
+   <g id="svg_22"/>
+   <g id="svg_23"/>
+   <g id="svg_24"/>
+   <g id="svg_25"/>
+   <g id="svg_26"/>
+  </symbol>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#000000" fill="#ffffff" stroke-width="5" x="270" y="144" width="114" height="67" id="svg_1"/>
+  <use id="svg_4" xlink:href="#svg_3" transform="matrix(0.05102703005780183,0,0,0.05100240700966839,312.55235025148653,148.98780720397278) " y="267.80309" x="-46.23021"/>
+  <g id="svg_5"/>
+  <rect fill="#ffffff" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="829.42478" y="514.68983" width="39.95488" height="129.85338" id="svg_7"/>
+  <rect fill="#ffffff" stroke="#000000" stroke-width="5" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x="3156.79683" y="-304.38531" width="29.96616" height="29.96616" id="svg_8"/>
+ </g>
+</svg>
